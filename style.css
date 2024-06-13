@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.parantbox{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#keyboard{
+border: 2px solid black;
+padding: 0px;
+background-color: whitesmoke;
+border-radius: 8px;
+}
+
+.keys button{
+ padding: 5px;
+ font-size: 30px;
+ margin:5px;
+ width: 60px;
+ height: 60px;
+ background-color: black;
+ color: white;
+ border-radius: 8px;
+ 
+}
+
+#back{
+    width: 160px; 
+    font-size: large;
+    padding-top: 20px;
+}
+#tab{
+    width: 90px;
+    font-size: large;
+    padding-top: 20px;
+}
+#enter{
+    width: 130px;
+    font-size: large;
+}
+#cap{
+    width: 130px;
+    font-size: large;
+}
+#shift1{
+    width: 110px;
+    font-size: large;
+    padding-top: 10px;
+}
+#shift2{
+    width: 110px;
+    font-size: large;
+    padding-top: 10px;
+}
+#cmnd{
+    width: 80px;
+    font-size: large;
+    padding-top: 20px; 
+}
+#space{
+    width: 340px;
+    padding-top: 20px;
+    font-size: large;
+}
+#ctrl{
+    font-size: large;
+    padding-top: 20px;
+}
+#option{
+    font-size: large;
+    padding-top: 20px;
+}
+#fn{
+    font-size: large;
+    padding-top: 20px;
+}
+#up{
+    font-size: large;
+    padding-top: 20px;  
+}
+#down{
+    font-size: large;
+    padding-top: 20px;
+}
+#delete{
+    font-size: large;
+    width: 90px;
+    padding-top: 10px;
+}
+#left{
+    padding-top: 10px;
+}
+#right{
+    padding-top: 10px;
+}
+button:hover{
+    background-color: rgb(107, 102, 102);
+}
+button:active{
+border-color: brown;
+}
+
+
+
